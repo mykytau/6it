@@ -502,11 +502,12 @@
           id="email"
           name="email"
           placeholder="E-mail"
+          required
         />
       </div>
     <button class="btn" type="submit">
     Підписатися
-    <svg class="subscribe-icon" width="24" height="24">
+    <svg class="subscribe-icon" width="24" height="24" fill='#fff'>
       <use href="./images/symbol-defs-name.svg#icon-message"></use>
     </svg>
   </button>
@@ -517,7 +518,7 @@
 <div class="modal-window is-hidden" data-modal>
   <div class="modal">
     <button class="modal-button" type="button" data-modal-close>
-      <svg class="icon-style" width="11" height="11">
+      <svg class="icon-style" width="18" height="18">
         <use href="./images/symbol-defs-name.svg#icon-close"> </use>
       </svg>
     </button>
@@ -526,7 +527,7 @@
       <div class="modal-register-form" role="group">
         <label class="modal-input-form">
           <span class="modal-input">Ім'я</span>
-          <input class="input-register" type="text" name="name" />
+          <input class="input-register" type="text" name="name" required />
           <svg class="icon-input" width="18" height="18">
             <use href="./images/symbol-defs-name.svg#icon-human"></use>
           </svg>
@@ -534,7 +535,7 @@
 
         <label class="modal-input-form">
           <span class="modal-input">Телефон</span>
-          <input class="input-register" type="tel" name="tel" />
+          <input class="input-register" type="tel" name="tel" required />
           <svg class="icon-input" width="18" height="18">
             <use href="./images/symbol-defs-name.svg#icon-phone"></use>
           </svg>
@@ -542,7 +543,7 @@
 
         <label class="modal-input-form">
           <span class="modal-input">Пошта</span>
-          <input class="input-register" type="email" name="email" />
+          <input class="input-register" type="email" name="email" required />
           <svg class="icon-input" width="18" height="18">
             <use href="./images/symbol-defs-name.svg#icon-email"></use>
           </svg>
@@ -557,7 +558,7 @@
         </label>
       </div>
       <label class="terms-assign">
-        <input class="terms visually-hidden" type="checkbox" name="terms" />
+        <input class="terms visually-hidden" type="checkbox" name="terms" required />
         <span class="icon-check"></span>
         <span class="text-assign">
           Погоджуюся з розсилкою та приймаю
