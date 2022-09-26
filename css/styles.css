@@ -127,13 +127,13 @@ body{
 }
 
 
-.logotype {
+.logo__type {
     color:var(--accent-color);
     font-weight: 700;;
     font-size: 26px;
     line-height: 1.19;
 }
-.second-logotype-style {
+.second__style {
     color:#000000;
 }
 .site-nav__link a{
@@ -494,16 +494,8 @@ border-radius: 0px 0px 4px 4px;
   
 
 }
-.our__clients{
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-        list-style-type: none;
-        margin-top: 50px;
-        margin-bottom: 0;
-       padding: 0;
-       margin: 0;
-}
+
+
 
 .social__link{
     display: flex;
@@ -513,8 +505,8 @@ border-radius: 0px 0px 4px 4px;
     height: 44px;
     color: var(--color-gray);
     border-radius: 50%;
-    transition: color 250ms var(--cubic-bezier), 
-    background-color 250ms var(--cubic-bezier);
+    transition: color 250ms var(--cubic-bezier);
+    background-color: 250ms var(--cubic-bezier);
 }
 /* Постійні клієнти */
 .clients__pick{

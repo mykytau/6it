@@ -2,13 +2,10 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    &:hover,
-    &:focus{
-    background: var(--accent-color);
-    color: var(--header-bcolor);
+
 }
 
-&__link{
+.social__link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,18 +13,23 @@
     height: 44px;
     color: var(--color-gray);
     border-radius: 50%;
-    transition: color 250ms var(--cubic-bezier), 
-    background-color 250ms var(--cubic-bezier);
+    transition: color 250ms var(--cubic-bezier);
+    background-color: 250ms var(--cubic-bezier);
+    &:hover,
+    &:focus{
+        background:var(--accent-color);
+        color: var(--header-bcolor);
+    }
 
 }
 
-&__main{
+.social__main{
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-&__icon{
+.social__icon{
     fill: currentColor;
-}
+
 }

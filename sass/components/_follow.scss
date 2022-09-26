@@ -1,19 +1,19 @@
 .follow{
     margin-left: 70px;
-
-&__title {
+}
+    .follow__title {
     color: var(--header-bcolor);
     margin-bottom: 20px;
 }
 
-&__list{
+.follow__list{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-&__link {
+.follow__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     transition: background-color 250ms var(--cubic-bezier);
 }
-}
+
 .follow__link:hover,
 .follow__link:focus{
     background: var(--accent-color);
