@@ -1,0 +1,33 @@
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    &:hover,
+    &:focus{
+    background: var(--accent-color);
+    color: var(--header-bcolor);
+}
+
+&__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: var(--color-gray);
+    border-radius: 50%;
+    transition: color 250ms var(--cubic-bezier), 
+    background-color 250ms var(--cubic-bezier);
+
+}
+
+&__main{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+&__icon{
+    fill: currentColor;
+}
+}
