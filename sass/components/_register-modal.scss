@@ -86,10 +86,13 @@
     fill: var(--h-color-text);
     transition: fill 250ms var(--cubic-bezier);
     visibility: 250ms var(--cubic-bezier);
+    &:focus,
+    &:hover{
+        fill:var(--accent-color);
+    }
 }
-.icon__input{
-    fill: var(--accent-color);
-}
+
+
 .terms__assign{
     display: flex;
     align-items: center;
