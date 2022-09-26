@@ -1046,8 +1046,7 @@ icon__style:focus {
   transition: fill 250ms var(--cubic-bezier);
   visibility: 250ms var(--cubic-bezier);
 }
-
-.icon__input {
+.icon__input:focus, .icon__input:hover {
   fill: var(--accent-color);
 }
 
