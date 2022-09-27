@@ -1056,13 +1056,8 @@ img {
   visibility: 250ms var(--cubic-bezier);
 }
 
-.icon__input:focus + .input__line {
+.icon__input:focus:hover + .input__line {
   fill: currentColor;
-}
-
-.input__line:focus + .form__svg,
-.input__line:hover + .form__svg {
-  fill: var(--accent-color);
 }
 
 .text__assign {
@@ -1082,6 +1077,22 @@ img {
   gap: 9px;
   position: relative;
   margin-bottom: 30px;
+}
+
+.icon__check {
+  display: block;
+  width: 16px;
+  height: 15px;
+  background-image: url(../images/icon-not-check.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.terms:checked + .icon__check {
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #2196F3;
 }
 
 .button__wrapper .photo__portfolio {
