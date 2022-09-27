@@ -1015,11 +1015,6 @@ img {
   -webkit-transition: border 250ms var(--cubic-bezier);
   transition: border 250ms var(--cubic-bezier);
 }
-.input__line:focus, .input__line:hover {
-  outline: none;
-  border: 1px solid #2196F3;
-  fill: var(--accent-color);
-}
 
 .reg__comment {
   font-size: 12px;
@@ -1036,10 +1031,6 @@ img {
   -webkit-transition: border 250ms var(--cubic-bezier);
   transition: border 250ms var(--cubic-bezier);
 }
-.reg__comment:focus, .reg__comment:hover {
-  outline: none;
-  border: 1px solid #2196F3;
-}
 
 .terms__contract {
   text-decoration: underline;
@@ -1054,6 +1045,19 @@ img {
   -webkit-transition: fill 250ms var(--cubic-bezier);
   transition: fill 250ms var(--cubic-bezier);
   visibility: 250ms var(--cubic-bezier);
+}
+
+.input__line:focus,
+.reg__comment:focus,
+.input__line:hover,
+.reg__comment:hover {
+  outline: none;
+  border: 1px solid #2196F3;
+}
+
+.input__line:focus,
+.input__line:hover {
+  fill: #2196F3;
 }
 
 .input__line:focus + .icon__input {

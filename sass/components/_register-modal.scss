@@ -48,12 +48,7 @@
     border-radius: 4px;
     cursor: pointer;
     transition: border 250ms var(--cubic-bezier);
-    &:focus,
-    &:hover{
-        outline: none;
-        border: 1px solid #2196F3;
-        fill: var(--accent-color)
-    }
+   
     
 }
 
@@ -70,11 +65,7 @@
     border: 1px solid var(--input-border-color);
     border-radius: 4px;
     transition: border 250ms var(--cubic-bezier);
-    &:focus,
-    &:hover{
-        outline: none;
-        border: 1px solid #2196F3;
-    }
+   
 
 }
 .terms__contract{
@@ -91,11 +82,26 @@
     
     
 }
-.input__line:focus + .icon__input
-.input__line:hover + .icon__input
+.input__line:focus,
+.reg__comment:focus,
+.input__line:hover,
+.reg__comment:hover
 {
+    outline: none;
+    border: 1px solid #2196F3;
+
+}
+.input__line:focus,
+.input__line:hover{
+    fill:#2196F3;
+   
+}
+
+
+.input__line:focus + .icon__input{
     fill: var(--accent-color);
 }
+
 
 .text__assign{
     font-size: 14px;
