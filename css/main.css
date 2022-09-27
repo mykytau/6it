@@ -1032,7 +1032,8 @@ icon__style:focus {
   -webkit-transition: border 250ms var(--cubic-bezier);
   transition: border 250ms var(--cubic-bezier);
 }
-.reg__comment:focus, .reg__comment:hover {
+.reg__comment:focus,
+.reg__comment:hover {
   outline: none;
   border: 1px solid #2196F3;
 }
@@ -1046,47 +1047,7 @@ icon__style:focus {
   transition: fill 250ms var(--cubic-bezier);
   visibility: 250ms var(--cubic-bezier);
 }
-.icon__input:focus, .icon__input:hover {
+
+.icon__input {
   fill: var(--accent-color);
-}
-
-.terms__assign {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 9px;
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.terms__contract {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  color: var(--accent-color);
-}
-
-.terms:checked + .icon__check {
-  background-image: url(../images/check.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #2196F3;
-}
-
-.icon__check {
-  display: block;
-  width: 16px;
-  height: 15px;
-  background-image: url(../images/icon-not-check.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.text__assign {
-  font-size: 14px;
-  line-height: 1.7142857143;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
 }/*# sourceMappingURL=main.css.map */

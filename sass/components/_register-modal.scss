@@ -61,6 +61,7 @@
     font-size: 12px;
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
+  
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     resize: none;
     padding: 12px 16px;  
@@ -76,7 +77,14 @@
     }
 
 }
+.reg__comment:focus,
 
+.reg__comment:hover
+{
+    outline: none;
+    border: 1px solid #2196F3;
+
+}
 
 
 .icon__input{
@@ -86,42 +94,7 @@
     fill: var(--h-color-text);
     transition: fill 250ms var(--cubic-bezier);
     visibility: 250ms var(--cubic-bezier);
-    &:focus,
-    &:hover{
-        fill:var(--accent-color);
-    }
 }
-
-
-.terms__assign{
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    position: relative;
-    margin-bottom: 30px;
-}
-.terms__contract{
-    text-decoration-line: underline;
-    color: var(--accent-color);
-}
-.terms:checked + .icon__check {
-    background-image: url(../images/check.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color:#2196F3;
-}
-.icon__check {
-    display: block;
-    width: 16px;
-    height: 15px;
-    background-image: url(../images/icon-not-check.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.text__assign{
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
+.icon__input:focus + .input__line{ 
+    fill: var(--accent-color);
 }
