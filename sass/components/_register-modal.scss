@@ -89,8 +89,11 @@
     transition: fill 250ms var(--cubic-bezier);
     visibility: 250ms var(--cubic-bezier);
     
+    
 }
-.input__line:focus + .icon__input{
+.input__line:focus + .icon__input
+.input__line:hover + .icon__input
+{
     fill: var(--accent-color);
 }
 
