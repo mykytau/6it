@@ -1056,8 +1056,8 @@ img {
   visibility: 250ms var(--cubic-bezier);
 }
 
-.icon__input:focus:hover + .input__line {
-  fill: currentColor;
+.input__line:focus + .icon__input {
+  fill: var(--accent-color);
 }
 
 .text__assign {
