@@ -830,6 +830,10 @@ img {
   text-transform: uppercase;
 }
 
+.subs__icon {
+  fill: white;
+}
+
 .follow {
   margin-left: 70px;
 }
@@ -1054,6 +1058,11 @@ img {
 
 .icon__input:focus + .input__line {
   fill: currentColor;
+}
+
+.input__line:focus + .form__svg,
+.input__line:hover + .form__svg {
+  fill: var(--accent-color);
 }
 
 .text__assign {

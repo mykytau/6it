@@ -92,6 +92,11 @@
 .icon__input:focus + .input__line{ 
     fill: currentColor;
 }
+.input__line:focus + .form__svg,
+.input__line:hover + .form__svg
+{
+    fill: var(--accent-color);
+}
 .text__assign{
     font-size: 14px;
     line-height: calc(24 / 14);
