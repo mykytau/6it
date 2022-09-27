@@ -77,16 +77,10 @@
     }
 
 }
-.reg__comment:focus,
-
-.reg__comment:hover
-{
-    outline: none;
-    border: 1px solid #2196F3;
-
+.terms__contract{
+    text-decoration: underline;
+    color:var(--accent-color);
 }
-
-
 .icon__input{
     position: absolute;
     bottom: 11px;
@@ -97,4 +91,18 @@
 }
 .icon__input:focus + .input__line{ 
     fill: currentColor;
+}
+.text__assign{
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.terms__assign{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    position: relative;
+    margin-bottom: 30px;
 }
