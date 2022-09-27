@@ -96,5 +96,5 @@
     visibility: 250ms var(--cubic-bezier);
 }
 .icon__input:focus + .input__line{ 
-    fill: var(--accent-color);
+    fill: currentColor;
 }
